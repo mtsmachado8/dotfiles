@@ -30,3 +30,6 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # go
 export PATH=$PATH:/usr/local/go/bin
 alias air='~/.air'
+
+# my alias commands
+alias loginvpn='sh ~/commands/loginvpn.sh'
