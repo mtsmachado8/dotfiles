@@ -31,5 +31,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 export PATH=$PATH:/usr/local/go/bin
 alias air='~/.air'
 
+# flutter
+export PATH=$PATH:/usr/local/flutter/bin
+
 # my alias commands
 alias loginvpn='sh ~/commands/loginvpn.sh'
