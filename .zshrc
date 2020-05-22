@@ -35,4 +35,5 @@ alias air='~/.air'
 export PATH=$PATH:/usr/local/flutter/bin
 
 # my alias commands
-alias loginvpn='sh ~/commands/loginvpn.sh'
+alias loginvpn='sh ~/commands/vpnDasa.sh'
+alias killport='sh ~/commands/killUsingPort.sh'
